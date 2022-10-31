@@ -18,10 +18,6 @@ jobs:
             - name: Install local dependencies
               run: yarn install
 
-
-            - name: Check format code EsLint
-              run: yarn eslint .
-              
             - name: Building
               run: yarn build
 
